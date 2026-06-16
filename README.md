@@ -1,21 +1,10 @@
-# Pelgulinna tunniplaan
+# Kliendile
+Saadetud versioon on ilma node_modulite ja importimiseta, ehk terminalis peab runnima:
 
-Käivitamine PowerShellis:
+npm install
+npm run import
+npm run dev
 
-```powershell
-npm.cmd install
-npm.cmd run import
-npm.cmd run dev
-```
+veebilink
+* http://localhost:3000
 
-Ava brauseris:
-
-```txt
-http://localhost:3000
-```
-
-XML fail peab olema siin:
-
-```txt
-data/incoming/untis.xml
-```
