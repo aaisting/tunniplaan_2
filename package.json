@@ -1,0 +1,29 @@
+{
+  "name": "tunniplaan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "import": "tsx scripts/import-untis.ts",
+    "db:stats": "tsx scripts/db-stats.ts"
+  },
+  "dependencies": {
+  "@tailwindcss/postcss": "4.1.10",
+  "better-sqlite3": "11.9.1",
+  "fast-xml-parser": "4.5.0",
+  "next": "16.2.9",
+  "react": "19.0.0",
+  "react-dom": "19.0.0",
+  "tailwindcss": "4.1.10"
+},
+  "devDependencies": {
+  "@types/better-sqlite3": "7.6.13",
+  "@types/node": "22.15.30",
+  "@types/react": "19.0.12",
+  "@types/react-dom": "19.0.4",
+  "tsx": "4.20.3",
+  "typescript": "5.8.3"
+}
+}
